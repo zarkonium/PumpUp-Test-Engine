@@ -13,7 +13,9 @@
 8. Run "pio build --verbose" which may take a while the first time PredictionIO is used
 9. Run "pio train"
 10. Run "pio deploy" and open a new terminal window when that's done, without closing the initial one
-11. In the new terminal you cna query the engine by calling in the usual fashion for example: curl -H "Content-Type: application/json" -d '{ "lastPostId": 4, "limit": 2 }' http://localhost:8000/queries.json feel free to change the limit and lastPostId parameters as you'd like
+11. In the new terminal you can query the engine by calling in the usual fashion for example: curl -H "Content-Type: application/json" -d '{ "lastPostId": 4, "limit": 2 }' http://localhost:8000/queries.json feel free to change the limit and lastPostId parameters as you'd like
+12. Once you're done, make sure to press "control + C" and then run "pio-stop-all" in the initial terminal
+window, to stop and close the engine and PredictionIO.
 
 
 ## Versions

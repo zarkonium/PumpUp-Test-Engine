@@ -6,8 +6,9 @@
 ## don't have PredictionIO installed see https://docs.prediction.io/install/)
 ## 2. run "pio-start-all" (this assumes you're using hBase and ElasticSearch)
 ## 3. run "pio status" to make sure everything is running correctly
-## 4. git clone this template to the PredictionIO/bin directory and 
-## cd to the newly created engine
+## 4. run "git clone github.com/zv713/PumpUp-Test-Engine <EngineName>" while in
+## the PredictionIO/bin directory where <EngineName> can be any name
+## you choose when done, cd to this newly created directory
 ## 5. run "pio app new <MyApp>" where <MyApp> can be any name you choose
 ## and copy the Access Key of the app created from the terminal output
 ## Note: you can run "pio app list" later if you forget the Access Key

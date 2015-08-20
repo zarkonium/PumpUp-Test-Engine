@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "com.test.PumpUpEngine",
+  "datasource": {
+    "params" : {
+      "appName": "MyApp"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "algo",
+      "params": {
+        "mult" : 1
+      }
+    }
+  ]
+}
